@@ -13,6 +13,7 @@
 		D92753D227886ADC005C1282 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92753D127886ADC005C1282 /* Preview Assets.xcassets */; };
 		D92753D427886ADC005C1282 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92753D327886ADC005C1282 /* Persistence.swift */; };
 		D92753D727886ADC005C1282 /* Devote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D92753D527886ADC005C1282 /* Devote.xcdatamodeld */; };
+		D92753DE27886B5A005C1282 /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = D92753DD27886B5A005C1282 /* Sound */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		D92753D127886ADC005C1282 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D92753D327886ADC005C1282 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D92753D627886ADC005C1282 /* Devote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devote.xcdatamodel; sourceTree = "<group>"; };
+		D92753DD27886B5A005C1282 /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
+		D92753E427886C03005C1282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +58,15 @@
 		D92753C927886ADB005C1282 /* Devote */ = {
 			isa = PBXGroup;
 			children = (
+				D92753E427886C03005C1282 /* Info.plist */,
+				D92753DF27886B78005C1282 /* View */,
+				D92753E327886BAC005C1282 /* Model */,
+				D92753E227886B98005C1282 /* Style */,
+				D92753E127886B8E005C1282 /* Utility */,
+				D92753E027886B7F005C1282 /* Extension */,
+				D92753DD27886B5A005C1282 /* Sound */,
 				D92753CA27886ADB005C1282 /* DevoteApp.swift */,
-				D92753CC27886ADB005C1282 /* ContentView.swift */,
 				D92753CE27886ADC005C1282 /* Assets.xcassets */,
-				D92753D327886ADC005C1282 /* Persistence.swift */,
-				D92753D527886ADC005C1282 /* Devote.xcdatamodeld */,
 				D92753D027886ADC005C1282 /* Preview Content */,
 			);
 			path = Devote;
@@ -71,6 +78,44 @@
 				D92753D127886ADC005C1282 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D92753DF27886B78005C1282 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D92753CC27886ADB005C1282 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D92753E027886B7F005C1282 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D92753E127886B8E005C1282 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D92753E227886B98005C1282 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		D92753E327886BAC005C1282 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D92753D327886ADC005C1282 /* Persistence.swift */,
+				D92753D527886ADC005C1282 /* Devote.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D92753DE27886B5A005C1282 /* Sound in Resources */,
 				D92753D227886ADC005C1282 /* Preview Assets.xcassets in Resources */,
 				D92753CF27886ADC005C1282 /* Assets.xcassets in Resources */,
 			);
@@ -280,9 +326,10 @@
 				DEVELOPMENT_TEAM = YMWX5SW9T6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,9 +356,10 @@
 				DEVELOPMENT_TEAM = YMWX5SW9T6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
