@@ -14,6 +14,7 @@
 		D92753D427886ADC005C1282 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92753D327886ADC005C1282 /* Persistence.swift */; };
 		D92753D727886ADC005C1282 /* Devote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D92753D527886ADC005C1282 /* Devote.xcdatamodeld */; };
 		D92753DE27886B5A005C1282 /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = D92753DD27886B5A005C1282 /* Sound */; };
+		D92753EA278C58CC005C1282 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92753E9278C58CC005C1282 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D92753D627886ADC005C1282 /* Devote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devote.xcdatamodel; sourceTree = "<group>"; };
 		D92753DD27886B5A005C1282 /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
 		D92753E427886C03005C1282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D92753E9278C58CC005C1282 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +61,13 @@
 			isa = PBXGroup;
 			children = (
 				D92753E427886C03005C1282 /* Info.plist */,
+				D92753CA27886ADB005C1282 /* DevoteApp.swift */,
 				D92753DF27886B78005C1282 /* View */,
 				D92753E327886BAC005C1282 /* Model */,
 				D92753E227886B98005C1282 /* Style */,
 				D92753E127886B8E005C1282 /* Utility */,
 				D92753E027886B7F005C1282 /* Extension */,
 				D92753DD27886B5A005C1282 /* Sound */,
-				D92753CA27886ADB005C1282 /* DevoteApp.swift */,
 				D92753CE27886ADC005C1282 /* Assets.xcassets */,
 				D92753D027886ADC005C1282 /* Preview Content */,
 			);
@@ -98,6 +100,7 @@
 		D92753E127886B8E005C1282 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				D92753E9278C58CC005C1282 /* Constant.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			files = (
 				D92753D427886ADC005C1282 /* Persistence.swift in Sources */,
 				D92753CD27886ADB005C1282 /* ContentView.swift in Sources */,
+				D92753EA278C58CC005C1282 /* Constant.swift in Sources */,
 				D92753D727886ADC005C1282 /* Devote.xcdatamodeld in Sources */,
 				D92753CB27886ADB005C1282 /* DevoteApp.swift in Sources */,
 			);
