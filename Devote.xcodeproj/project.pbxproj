@@ -17,6 +17,7 @@
 		D92753EA278C58CC005C1282 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92753E9278C58CC005C1282 /* Constant.swift */; };
 		D92753EC278C68B1005C1282 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92753EB278C68B1005C1282 /* HideKeyboardExtension.swift */; };
 		D95A7E2B2799948700527038 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A7E2A2799948700527038 /* BackgroundImageView.swift */; };
+		D95A7E2D279ADC6200527038 /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A7E2C279ADC6200527038 /* NewTaskItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D92753E9278C58CC005C1282 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		D92753EB278C68B1005C1282 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		D95A7E2A2799948700527038 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		D95A7E2C279ADC6200527038 /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				D92753CC27886ADB005C1282 /* ContentView.swift */,
 				D95A7E2A2799948700527038 /* BackgroundImageView.swift */,
+				D95A7E2C279ADC6200527038 /* NewTaskItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				D92753EA278C58CC005C1282 /* Constant.swift in Sources */,
 				D92753D727886ADC005C1282 /* Devote.xcdatamodeld in Sources */,
 				D92753CB27886ADB005C1282 /* DevoteApp.swift in Sources */,
+				D95A7E2D279ADC6200527038 /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
